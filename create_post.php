@@ -5,7 +5,6 @@
     // hellloooo
     $db = connect_db();
     // <sdfghjklfwqhlkfh>q</sdfghjklfwqhlkfh>
-
     //var_dump($_POST);
 
     if (!empty($_POST['title']) && !empty($_POST['text'])) {
