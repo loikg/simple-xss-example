@@ -2,7 +2,9 @@
 
     session_start();
     require_once("db.php");
+    // hellloooo
     $db = connect_db();
+    // <sdfghjklfwqhlkfh>q</sdfghjklfwqhlkfh>
 
     //var_dump($_POST);
 
