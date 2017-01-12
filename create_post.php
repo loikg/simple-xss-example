@@ -1,9 +1,5 @@
 <?php
 
-    session_start();
-    require_once("db.php");
-    $db = connect_db();
-
     //var_dump($_POST);
 
     if (!empty($_POST['title']) && !empty($_POST['text'])) {
