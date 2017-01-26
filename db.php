@@ -1,5 +1,5 @@
 <?php
-
+// this is a test
 function connect_db() {
     $host = "localhost";
     $dbname = "simple-xss-example";

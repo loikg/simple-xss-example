@@ -1,6 +1,6 @@
 <?php
 
-    //var_dump($_POST);
+    session_start();
 
     if (!empty($_POST['title']) && !empty($_POST['text'])) {
         $stmt = $db->prepare("INSERT INTO posts (title, text) VALUES (?, ?)");
